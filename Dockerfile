@@ -16,4 +16,4 @@ RUN echo "deb http://deb.debian.org/debian buster-backports main" >> /etc/apt/so
     && apt install bird2 -y
 
 CMD ["php-fpm"]
-EXPOSE 9000
+EXPOSE 9001
